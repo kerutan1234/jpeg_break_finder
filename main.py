@@ -21,7 +21,8 @@ def main():
 
     # (1/4) 画像ファイルの場所を決めます。
     #add="C:/Users/SZ6/Nextcloud/画像/jpg"
-    add="R:/画像"
+    print("ファイルの場所入力　R:/画像")
+    add=input()
     dirlist=[]
     os.listdir(add)
     os.makedirs(add+'/ngfile2', exist_ok=True)
